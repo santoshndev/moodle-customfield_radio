@@ -25,7 +25,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'customfield_radio';
-$plugin->version   = 2025081700;
+$plugin->version   = 2025081701;
 $plugin->requires  = 2023100400;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.1.0';
+$plugin->release   = '1.2.0';
