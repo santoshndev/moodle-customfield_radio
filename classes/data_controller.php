@@ -31,7 +31,6 @@ namespace customfield_radio;
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class data_controller extends \core_customfield\data_controller {
-
     /**
      * Return the name of the field where the information is stored
      * @return string
