@@ -118,8 +118,11 @@ class field_controller extends \core_customfield\field_controller {
                 $ret[$value] = $options[$value];
             }
         }
-        $ret[BLOCK_MYOVERVIEW_CUSTOMFIELD_EMPTY] = get_string('nocustomvalue', 'block_myoverview',
-            $this->get_formatted_name());
+        $ret[BLOCK_MYOVERVIEW_CUSTOMFIELD_EMPTY] = get_string(
+            'nocustomvalue',
+            'block_myoverview',
+            $this->get_formatted_name()
+        );
         return $ret;
     }
 
